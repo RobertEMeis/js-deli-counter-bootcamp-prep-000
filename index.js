@@ -29,9 +29,9 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     for (var i = 0; i < line.length; i++) {
-      var sent = "The line is currently:"; 
+      var sent = "The line is currently:";
       sent += (i + line[i]);
-      
+
     }
-    return sent; 
+    return sent;
 }
