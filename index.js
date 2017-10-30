@@ -37,6 +37,7 @@ function currentLine(line) {                                               var s
 
     }
   }
-    var new = sent.split('')
-    return new;
+    var newSent = sent.split('');
+    newSent.pop();
+    return newSent.join('');
 }
