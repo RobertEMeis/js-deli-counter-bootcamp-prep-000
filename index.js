@@ -21,5 +21,5 @@ function nowServing(katzDeliLine) {
 
    return katzDeliLine.splice(1, katzDeliLine.length-1)
  }
-   
+
 }
