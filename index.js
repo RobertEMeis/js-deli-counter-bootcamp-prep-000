@@ -26,17 +26,16 @@ function nowServing(katzDeliLine) {
 
 
 
-function currentLine(line) {                                               var sent = "The line is currently: " 
+function currentLine(line) {                                               var sent = "The line is currently: "
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
     for (var i = 0; i < line.length; i++) {
-      
+
       sent += i+1;                                                             sent += ". ";
-      sent += line[i];                                                         sent += " ";    
+      sent += line[i];                                                         sent += ", ";
 
     }
   }
     return sent;
 }
-
