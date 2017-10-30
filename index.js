@@ -33,5 +33,6 @@ function currentLine(line) {
       sent += (i + line[i]);
 
     }
+  }
     return sent;
 }
